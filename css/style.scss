@@ -125,7 +125,7 @@ body{
  
     *{
       h1,h2,p,a,span{
-        color: #140d0d;
+        color:white;
       }
       .btn{
         background-color:$button-blue;
@@ -156,6 +156,8 @@ body{
 }
 header{
     background-color: #000;
+    position: relative;
+    z-index: 4;
     height: 10vh;
     display: flex;
     align-items: center;
@@ -242,6 +244,8 @@ header{
   background-color:#1A171E;
   padding-bottom: 30px;
   height: 90vh;
+  position: relative;
+  z-index: 1;
   .banner-text{
     padding-top: 20px;
     h1{
@@ -259,7 +263,7 @@ header{
        padding-right: 30px;
     }
     #rounded-pic{
-      padding-top: 10px;
+      padding-top: 7px;
     }
     
   }

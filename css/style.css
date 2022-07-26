@@ -179,7 +179,7 @@ body {
 }
 
 body * h1, body * h2, body * p, body * a, body * span {
-  color: #ffffff;
+  color: white;
 }
 
 body * .btn {
@@ -217,6 +217,8 @@ body * input {
 
 header {
   background-color: #000;
+  position: relative;
+  z-index: 4;
   height: 10vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -316,6 +318,8 @@ header nav .mobile-nav.is-active {
   background-color: #1A171E;
   padding-bottom: 30px;
   height: 90vh;
+  position: relative;
+  z-index: 1;
 }
 
 .banner .banner-text {
@@ -341,7 +345,7 @@ header nav .mobile-nav.is-active {
 }
 
 .banner .banner-images #rounded-pic {
-  padding-top: 10px;
+  padding-top: 7px;
 }
 
 .banner .toggle {
@@ -810,7 +814,7 @@ body.dark footer p {
   color: white;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   header {
     height: 8vh;
   }
@@ -1338,7 +1342,7 @@ body.dark footer p {
     padding-left: 30px;
   }
   .banner .banner-images .image {
-    width: 43%;
+    width: 41%;
     padding-right: 9px;
     -webkit-animation: slideInFromBottom 1.0s ease-in-out;
             animation: slideInFromBottom 1.0s ease-in-out;
